@@ -1,5 +1,5 @@
 """
-<<<<<<< HEAD
+
 完善你的Calc的用例，增加更多用例（浮点数相乘bug）
 - 提交你的github测试文件地址
 - 把allure的首页截图到回帖中
@@ -12,16 +12,6 @@ from learn_python.work3_test_pytest.core.calc import Calc
 
 
 @allure.feature("测试用例")
-=======
-完善Calc的用例，增加更多用例（浮点数相乘bug）
-"""
-import pytest
-import allure
-
-from learn_python.work3_test_pytest.core.calc import Calc
-
-
->>>>>>> origin/master
 class TestCalc:
     def setup_class(self):
         self.calc = Calc()
@@ -29,7 +19,6 @@ class TestCalc:
     def setup(self):
         pass
 
-<<<<<<< HEAD
     # 正常整数相乘
     @allure.story("正常整数相乘")
     @pytest.mark.parametrize('a, b, c', [
@@ -39,20 +28,7 @@ class TestCalc:
         [-1, 1, -1]
     ])
     def test_mul_01(self, a, b, c):
-=======
-    # 乘法用例
-    @pytest.mark.parametrize('a, b, c', [
-        [1, 2, 2],
-        [-1, -1, 1],
-        [1, -1, 1]
-    ])
-    def test_mul(self, a, b, c):
->>>>>>> origin/master
         assert self.calc.mul(a, b) == c
-        # assert calc.mul(-1, -1) == 1
-        # assert calc.mul(1, -1) == 1
-
-<<<<<<< HEAD
     # 浮点数相乘
     @allure.story("浮点数相乘")
     @pytest.mark.parametrize('a, b, c', [
@@ -163,10 +139,6 @@ class TestCalc:
         with pytest.raises(Exception):
             assert self.calc.div(a, b)
 
-    # 流程示例1
-    @allure.story("先乘后除")
-    def test_process_01(self):
-=======
     # 除法用例
     @pytest.mark.parametrize('a, b, c', [
         [2, 2, 1],
@@ -186,22 +158,17 @@ class TestCalc:
         with pytest.raises(Exception):
             assert self.calc.div(a, b)
 
-    # 流程示例，先乘后除
+    # 流程示例1
+    @allure.story("先成后除")
     def test_process1(self):
->>>>>>> origin/master
         r1 = self.calc.mul(1, 2)
         r2 = self.calc.div(2, 1)
         assert r1 == 2
         assert r2 == 2
 
-<<<<<<< HEAD
     # 流程示例2
     @allure.story("先除后乘")
     def test_process_02(self):
-=======
-    # 流程示例，先乘后除
-    def test_process2(self):
->>>>>>> origin/master
         r1 = self.calc.div(2, 1)
         r2 = self.calc.mul(1, 2)
         assert r1 == 2
