@@ -1,0 +1,99 @@
+{
+  "uid" : "5212e0db559c8109",
+  "name" : "test_mul_01[-1-1--1]",
+  "fullName" : "learn_python.work3_test_pytest.tests.test_calc.TestCalc#test_mul_01",
+  "historyId" : "683f9b02c23e0d3810cab6d5a90ea3b2",
+  "time" : {
+    "start" : 1604141734360,
+    "stop" : 1604141734360,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1604141734240,
+      "stop" : 1604141734240,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1604141734541,
+      "stop" : 1604141734541,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试用例"
+  }, {
+    "name" : "story",
+    "value" : "正常整数相乘"
+  }, {
+    "name" : "parentSuite",
+    "value" : "learn_python.work3_test_pytest.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "MS-ISXHUZMHHXQK"
+  }, {
+    "name" : "thread",
+    "value" : "6784-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "learn_python.work3_test_pytest.tests.test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "-1"
+  }, {
+    "name" : "b",
+    "value" : "1"
+  }, {
+    "name" : "c",
+    "value" : "-1"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5212e0db559c8109.json",
+  "parameterValues" : [ "-1", "1", "-1" ]
+}

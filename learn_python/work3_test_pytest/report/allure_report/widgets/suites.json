@@ -1,0 +1,15 @@
+{
+  "total" : 1,
+  "items" : [ {
+    "uid" : "056ed87995dfcf6a98de085c514d1644",
+    "name" : "learn_python.work3_test_pytest.tests",
+    "statistic" : {
+      "failed" : 6,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 52,
+      "unknown" : 0,
+      "total" : 58
+    }
+  } ]
+}

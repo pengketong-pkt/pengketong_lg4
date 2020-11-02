@@ -1,0 +1,15 @@
+{
+  "total" : 4,
+  "items" : [ {
+    "uid" : "8d8946e57f22bbeb4d7b953ca127bb9e",
+    "name" : "测试用例",
+    "statistic" : {
+      "failed" : 3,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 15
+    }
+  } ]
+}

@@ -1,0 +1,90 @@
+{
+  "uid" : "ffa9c6560ed4c575",
+  "name" : "test_div[0.2-0]",
+  "fullName" : "learn_python.work3_test_pytest.tests.test_calc.TestCalc#test_div",
+  "historyId" : "f44b190a8c23e452b2b1e363075fb91d",
+  "time" : {
+    "start" : 1604138132543,
+    "stop" : 1604138132544,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1604138132415,
+      "stop" : 1604138132415,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1604138132560,
+      "stop" : 1604138132560,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "learn_python.work3_test_pytest.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "MS-ISXHUZMHHXQK"
+  }, {
+    "name" : "thread",
+    "value" : "24632-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "learn_python.work3_test_pytest.tests.test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0.2"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ffa9c6560ed4c575.json",
+  "parameterValues" : [ "0.2", "0" ]
+}

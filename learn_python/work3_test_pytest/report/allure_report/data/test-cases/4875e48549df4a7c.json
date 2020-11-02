@@ -1,0 +1,101 @@
+{
+  "uid" : "4875e48549df4a7c",
+  "name" : "test_div_02[0.02-0.02-1]",
+  "fullName" : "learn_python.work3_test_pytest.tests.test_calc.TestCalc#test_div_02",
+  "historyId" : "b5f3ecb591b7a4417613db39d86f6f27",
+  "time" : {
+    "start" : 1604322838106,
+    "stop" : 1604322838107,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1604322837776,
+      "stop" : 1604322837777,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1604322838276,
+      "stop" : 1604322838276,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试用例"
+  }, {
+    "name" : "story",
+    "value" : "浮点数相除"
+  }, {
+    "name" : "parentSuite",
+    "value" : "learn_python.work3_test_pytest.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "MS-ISXHUZMHHXQK"
+  }, {
+    "name" : "thread",
+    "value" : "25528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "learn_python.work3_test_pytest.tests.test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0.02"
+  }, {
+    "name" : "b",
+    "value" : "0.02"
+  }, {
+    "name" : "c",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4875e48549df4a7c.json",
+  "parameterValues" : [ "0.02", "0.02", "1" ]
+}

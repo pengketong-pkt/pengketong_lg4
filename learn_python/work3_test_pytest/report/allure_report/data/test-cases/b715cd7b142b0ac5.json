@@ -1,0 +1,109 @@
+{
+  "uid" : "b715cd7b142b0ac5",
+  "name" : "test_mul_02[9.9-9.9-98.01]",
+  "fullName" : "learn_python.work3_test_pytest.tests.test_calc.TestCalc#test_mul_02",
+  "historyId" : "08a48b74968e7d57460fd2daac738fdb",
+  "time" : {
+    "start" : 1604322837923,
+    "stop" : 1604322837923,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1604322837776,
+      "stop" : 1604322837777,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1604322838276,
+      "stop" : 1604322838276,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "浮点数相乘"
+  }, {
+    "name" : "feature",
+    "value" : "测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "learn_python.work3_test_pytest.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "MS-ISXHUZMHHXQK"
+  }, {
+    "name" : "thread",
+    "value" : "25528-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "learn_python.work3_test_pytest.tests.test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "9.9"
+  }, {
+    "name" : "b",
+    "value" : "9.9"
+  }, {
+    "name" : "c",
+    "value" : "98.01"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "273fb0f826ef55d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604141734400,
+        "stop" : 1604141734400,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b715cd7b142b0ac5.json",
+  "parameterValues" : [ "9.9", "9.9", "98.01" ]
+}

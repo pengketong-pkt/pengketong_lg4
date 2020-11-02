@@ -1,0 +1,1110 @@
+{
+  "e859218d9eadc7ebac1b68d54e386ae4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b38f6bacdfc6bd60",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838033,
+        "stop" : 1604322838033,
+        "duration" : 0
+      }
+    } ]
+  },
+  "683f9b02c23e0d3810cab6d5a90ea3b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73f105b57690f2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837889,
+        "stop" : 1604322837890,
+        "duration" : 1
+      }
+    } ]
+  },
+  "b5f3ecb591b7a4417613db39d86f6f27" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4875e48549df4a7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838106,
+        "stop" : 1604322838107,
+        "duration" : 1
+      }
+    } ]
+  },
+  "6d0c9649fd79b63b2628fc0540bbbb83" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90800e42a58646ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838256,
+        "stop" : 1604322838256,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3400add17db05f6ed32dfd28776bde86" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ff348722510f8694",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838039,
+        "stop" : 1604322838040,
+        "duration" : 1
+      }
+    } ]
+  },
+  "cf25fa192700ffc0e175f99e1eac563c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db4590134155c4cf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838067,
+        "stop" : 1604322838067,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f44b190a8c23e452b2b1e363075fb91d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e23b5317f5e65bf8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604141734526,
+        "stop" : 1604141734526,
+        "duration" : 0
+      }
+    } ]
+  },
+  "60b1c52df724595bdcba85c47b3bc76e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d33b2381f3de1876",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838192,
+        "stop" : 1604322838192,
+        "duration" : 0
+      }
+    } ]
+  },
+  "87fc7dcf689ec555b4a98ef8a8f47aa6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ce09748f0c8150dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838246,
+        "stop" : 1604322838246,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7e959daf31dbe23c143340ffbc0b68ce" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "532940bd216eff8b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert -1 == 1\n +  where -1 = <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000002215AB6DE50>>(1, -1)\n +    where <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000002215AB6DE50>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000002215AB6DE50>.mul\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000002215AB6DE50> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000002215AB76400>.calc",
+      "time" : {
+        "start" : 1604138132434,
+        "stop" : 1604138132434,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3fd0d59eb8a672df6aa10c9e22706613" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "da0224966721b681",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837970,
+        "stop" : 1604322837970,
+        "duration" : 0
+      }
+    } ]
+  },
+  "67ce7500206a5121ce00f6dc3a818089" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9f55ca559122de8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837939,
+        "stop" : 1604322837940,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ca131e398124ebaa501e2227f8edc289" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "171bcaf4e864e714",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604138132417,
+        "stop" : 1604138132418,
+        "duration" : 1
+      }
+    } ]
+  },
+  "4ab9ec60a12de281a5e420018f9f118b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a86e9cb5180f64df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838152,
+        "stop" : 1604322838153,
+        "duration" : 1
+      }
+    } ]
+  },
+  "81536b9af0e4d53dbd8bbf72e0c26235" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2db9eb5963a19af7",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert -1 == 1\n +  where -1 = <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>>(1, -1)\n +    where <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>.mul\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000255F9B38A30>.calc",
+      "time" : {
+        "start" : 1604322837793,
+        "stop" : 1604322837793,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5ab81d984de50b0f522f9f32a742c5a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b1b1a2658bd8fb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838025,
+        "stop" : 1604322838026,
+        "duration" : 1
+      }
+    } ]
+  },
+  "59501392dc5929c28fbef82675b38485" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3750e48eb374ec34",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604138132425,
+        "stop" : 1604138132425,
+        "duration" : 0
+      }
+    } ]
+  },
+  "3c3d6785d8cfa6eae5012a4bfa930396" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d56466f7c7676a38",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837907,
+        "stop" : 1604322837907,
+        "duration" : 0
+      }
+    } ]
+  },
+  "edd974f3a046d5bf4af8d43d1abaf84a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ec448135e373d9c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837963,
+        "stop" : 1604322837963,
+        "duration" : 0
+      }
+    } ]
+  },
+  "98e279db727dc883be8be9f99960a797" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29ab5263029114e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838264,
+        "stop" : 1604322838264,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e8911c5050ec2f9d76416accea846a07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6d8f15593c72caf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604141734518,
+        "stop" : 1604141734518,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7d25cb2d2d2c0d8394dd6210e1e81e47" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8d004a4b8e4b63d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838185,
+        "stop" : 1604322838186,
+        "duration" : 1
+      }
+    } ]
+  },
+  "2fa99c3e15efc852adc8b1e46bcbf651" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "861e136c2ce0238d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838059,
+        "stop" : 1604322838060,
+        "duration" : 1
+      }
+    } ]
+  },
+  "b39d56b9f195f2d08728b0205625bd07" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36b186a895fe61a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838159,
+        "stop" : 1604322838160,
+        "duration" : 1
+      }
+    } ]
+  },
+  "3a145d3deb229709b2c8a5cd3c9022bb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d54acfa04676a7f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838003,
+        "stop" : 1604322838003,
+        "duration" : 0
+      }
+    } ]
+  },
+  "56ec71b2d74527b12fd9046b5e8c4e80" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e31c6072de842bad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837896,
+        "stop" : 1604322837896,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cc4ebfc9733fa703659e6b02d3a39381" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ee73c04e370ebb1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838018,
+        "stop" : 1604322838018,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9d99c8a770a8c080ad0451352433e0f6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db29c51c27fbfaec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838046,
+        "stop" : 1604322838046,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9ea923ef710f58d10318f810e6d45a2f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "81b56a59c6b9d68f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838166,
+        "stop" : 1604322838168,
+        "duration" : 2
+      }
+    } ]
+  },
+  "a8f2e6813d8203ac7d3610ab89093f9d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a679d3004bd40d2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838271,
+        "stop" : 1604322838271,
+        "duration" : 0
+      }
+    } ]
+  },
+  "43054fd76e14498482605d4232f8e550" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f20b8cca1ec6dda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837785,
+        "stop" : 1604322837786,
+        "duration" : 1
+      }
+    } ]
+  },
+  "ef811b3bf43a9f3e7c01cf711852bff1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebc8f2fb0fcfaff9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838233,
+        "stop" : 1604322838233,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a8473bbe52247b401247b1538fd38f0c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6df18736d960fb24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838226,
+        "stop" : 1604322838226,
+        "duration" : 0
+      }
+    } ]
+  },
+  "97e258ccb2af3a3095de6e1fe05a7a50" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc678f69193803d9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838198,
+        "stop" : 1604322838199,
+        "duration" : 1
+      }
+    } ]
+  },
+  "cafcb1ca09917a57ec4a685156cee233" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "162177259f8abc83",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838213,
+        "stop" : 1604322838213,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1b8a37fef95123def5cbe8f138c17f53" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b695ce489e2c80fe",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>>(2, -2)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000255F9BDC5E0>.calc",
+      "time" : {
+        "start" : 1604322838075,
+        "stop" : 1604322838075,
+        "duration" : 0
+      }
+    } ]
+  },
+  "563672ce41802d62c64be5de2b7c7fba" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "86d5ebd3a8b68550",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837992,
+        "stop" : 1604322837993,
+        "duration" : 1
+      }
+    } ]
+  },
+  "2c6e95395a0d15b6166ed6762ed9f7db" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19e4a6d29781c5ca",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837977,
+        "stop" : 1604322837978,
+        "duration" : 1
+      }
+    } ]
+  },
+  "cddd8e6fd852280b5fa80772813b9a8f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "93b2efdb76216bea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838115,
+        "stop" : 1604322838115,
+        "duration" : 0
+      }
+    } ]
+  },
+  "40ac54ebab5bca46888de794f2a7da5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b7883c00b0ea4ac0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837947,
+        "stop" : 1604322837947,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6bcb97a5c2552e0d20cd870df393d384" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9ee826dcf9a372b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838220,
+        "stop" : 1604322838221,
+        "duration" : 1
+      }
+    } ]
+  },
+  "0e73bc5eba5dc23635e0c3572613412b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "323189e981e992f8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838275,
+        "stop" : 1604322838275,
+        "duration" : 0
+      }
+    } ]
+  },
+  "04454d0546becab4302f492bb695258a" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f1eea661d36514f9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>>(-0.02, 0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000255F9BE1370>.calc",
+      "time" : {
+        "start" : 1604322838138,
+        "stop" : 1604322838138,
+        "duration" : 0
+      }
+    } ]
+  },
+  "16fe0878e1a8b6720f5d32c618c07772" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2b4b9e9b77c7a675",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838052,
+        "stop" : 1604322838052,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4c24560aee60d86a476c7b9728329a94" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24ea6da905dbee11",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>>(0.02, -0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000255F9BE95B0>.calc",
+      "time" : {
+        "start" : 1604322838124,
+        "stop" : 1604322838125,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1d546b941b5a57b52c1bc56c24ef8678" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d926dbbcca6806a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837932,
+        "stop" : 1604322837933,
+        "duration" : 1
+      }
+    } ]
+  },
+  "47e853d8f2dc10dfd146028e44308d54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d4f32384a177764",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837915,
+        "stop" : 1604322837916,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a54892d9ead9b784fac8d5be2fdfbaef" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3f8b4ca4f2d756d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837985,
+        "stop" : 1604322837985,
+        "duration" : 0
+      }
+    } ]
+  },
+  "8db4356f16136f8245a8490bd0d8d49e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71038208f3f1d109",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838240,
+        "stop" : 1604322838241,
+        "duration" : 1
+      }
+    } ]
+  },
+  "4c33df2072505259cfd4f2014a8c9f21" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "68129c0be1d56777",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838010,
+        "stop" : 1604322838010,
+        "duration" : 0
+      }
+    } ]
+  },
+  "6a1727d7bd295be3b0b1034a2cb011cc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7b1f2f9c2278a92d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604141734540,
+        "stop" : 1604141734540,
+        "duration" : 0
+      }
+    } ]
+  },
+  "4049bc127ab1bef70487f917ba5d4581" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "199fa04f1d2c3dc4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>>(-2, 2)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000255F9BDC2B0>.calc",
+      "time" : {
+        "start" : 1604322838088,
+        "stop" : 1604322838089,
+        "duration" : 1
+      }
+    } ]
+  },
+  "08a48b74968e7d57460fd2daac738fdb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b715cd7b142b0ac5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837923,
+        "stop" : 1604322837923,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7f71748eec9c4e5ab5f2eab26910bc0d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48c2a792b47dbe49",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837778,
+        "stop" : 1604322837778,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d379b16ef610d0937eba64f76f4b7e63" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "84fdbde3ec44a286",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838206,
+        "stop" : 1604322838206,
+        "duration" : 0
+      }
+    } ]
+  },
+  "08bde42d98c079291872f8122c5c27cd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "272c452f9228ded3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604141734532,
+        "stop" : 1604141734533,
+        "duration" : 1
+      }
+    } ]
+  },
+  "910cb5d63d2ef05b70d696d84a9f5ecb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26f2dd0685ce884b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322837954,
+        "stop" : 1604322837955,
+        "duration" : 1
+      }
+    } ]
+  },
+  "daa84a741ccd9d5388d37f7bfc4af2af" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "71689a814a4cf6cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604322838177,
+        "stop" : 1604322838177,
+        "duration" : 0
+      }
+    } ]
+  }
+}
