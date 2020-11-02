@@ -29,6 +29,7 @@ class TestCalc:
     ])
     def test_mul_01(self, a, b, c):
         assert self.calc.mul(a, b) == c
+
     # 浮点数相乘
     @allure.story("浮点数相乘")
     @pytest.mark.parametrize('a, b, c', [
@@ -73,7 +74,6 @@ class TestCalc:
         ['a', 'b'],
         ['@', '!'],
         ['中文', '中文'],
-        [0, 0],
     ])
     def test_mul_05(self, a, b):
         with pytest.raises(Exception):
@@ -136,25 +136,6 @@ class TestCalc:
         [0, 0],
     ])
     def test_div_05(self, a, b):
-        with pytest.raises(Exception):
-            assert self.calc.div(a, b)
-
-    # 除法用例
-    @pytest.mark.parametrize('a, b, c', [
-        [2, 2, 1],
-        [0.2, 0.1, 2],
-        [0, 2, 0]
-    ])
-    def test_div(self, a, b, c):
-        assert self.calc.div(a, b) == c
-
-    # 异常值例子
-    @pytest.mark.parametrize('a, b', [
-        [2, 0],
-        [0.2, 0],
-        [0, 0]
-    ])
-    def test_div(self, a, b):
         with pytest.raises(Exception):
             assert self.calc.div(a, b)
 
