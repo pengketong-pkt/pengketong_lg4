@@ -6,3 +6,6 @@
 
 ## pytest测试框架实战一
 /learn_python/work3_test_pytest/
+
+## web企业微信实战（一）--作业
+/learn_python/work_selenium/test_weixin.py
