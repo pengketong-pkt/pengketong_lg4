@@ -4,107 +4,90 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "AssertionError: assert -1 == 1\n +  where -1 = <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000002215AB6DE50>>(1, -1)\n +    where <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000002215AB6DE50>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000002215AB6DE50>.mul\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000002215AB6DE50> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000002215AB76400>.calc",
-      "children" : [ {
-        "name" : "test_mul[1--1-1]",
-        "uid" : "532940bd216eff8b",
-        "parentUid" : "d21000b642ed05102c782dab66899ae2",
-        "status" : "failed",
-        "time" : {
-          "start" : 1604138132434,
-          "stop" : 1604138132434,
-          "duration" : 0
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "1", "-1", "1" ]
-      } ],
-      "uid" : "d21000b642ed05102c782dab66899ae2"
-    }, {
-      "name" : "AssertionError: assert -1 == 1\n +  where -1 = <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>>(1, -1)\n +    where <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>.mul\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000255F9B38A30>.calc",
+      "name" : "AssertionError: assert -1 == 1\n +  where -1 = <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>>(1, -1)\n +    where <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>.mul\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000001D7245C9250>.calc",
       "children" : [ {
         "name" : "test_mul_01[1--1-1]",
-        "uid" : "2db9eb5963a19af7",
-        "parentUid" : "22f57ba8d237ce58730516febd872330",
+        "uid" : "105eee8064be1983",
+        "parentUid" : "24233ce12dc38b5ce130c971f57cf2ee",
         "status" : "failed",
         "time" : {
-          "start" : 1604322837793,
-          "stop" : 1604322837793,
+          "start" : 1604328999314,
+          "stop" : 1604328999314,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "1", "-1", "1" ]
       } ],
-      "uid" : "22f57ba8d237ce58730516febd872330"
+      "uid" : "24233ce12dc38b5ce130c971f57cf2ee"
     }, {
-      "name" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>>(2, -2)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000255F9BDC5E0>.calc",
+      "name" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>>(2, -2)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000001D7246AD280>.calc",
       "children" : [ {
         "name" : "test_div_01[2--2-1]",
-        "uid" : "b695ce489e2c80fe",
-        "parentUid" : "fbec887520ca2a4655392f41023a2d9b",
+        "uid" : "8618e667811cc915",
+        "parentUid" : "4d343048dbe2459978efb5c1fbe2912d",
         "status" : "failed",
         "time" : {
-          "start" : 1604322838075,
-          "stop" : 1604322838075,
-          "duration" : 0
+          "start" : 1604328999571,
+          "stop" : 1604328999572,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "2", "-2", "1" ]
       } ],
-      "uid" : "fbec887520ca2a4655392f41023a2d9b"
+      "uid" : "4d343048dbe2459978efb5c1fbe2912d"
     }, {
-      "name" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>>(-2, 2)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000255F9BDC2B0>.calc",
+      "name" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>>(-2, 2)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000001D7246A9790>.calc",
       "children" : [ {
         "name" : "test_div_01[-2-2-1]",
-        "uid" : "199fa04f1d2c3dc4",
-        "parentUid" : "0c05732ea2abb35da4600764aba65fbb",
+        "uid" : "e2f78e7f8956ad28",
+        "parentUid" : "a2af9e9983ded1eb36b01cdb1ae364a3",
         "status" : "failed",
         "time" : {
-          "start" : 1604322838088,
-          "stop" : 1604322838089,
-          "duration" : 1
+          "start" : 1604328999585,
+          "stop" : 1604328999585,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "-2", "2", "1" ]
       } ],
-      "uid" : "0c05732ea2abb35da4600764aba65fbb"
+      "uid" : "a2af9e9983ded1eb36b01cdb1ae364a3"
     }, {
-      "name" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>>(0.02, -0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000255F9BE95B0>.calc",
+      "name" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>>(0.02, -0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000001D7246B4C70>.calc",
       "children" : [ {
         "name" : "test_div_02[0.02--0.02-1]",
-        "uid" : "24ea6da905dbee11",
-        "parentUid" : "5f6de1f6dde9cf22fc1da98bdf988164",
+        "uid" : "126e98986fd6ebbd",
+        "parentUid" : "13ec6ead27d99623e59520accac3101b",
         "status" : "failed",
         "time" : {
-          "start" : 1604322838124,
-          "stop" : 1604322838125,
-          "duration" : 1
+          "start" : 1604328999614,
+          "stop" : 1604328999614,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "0.02", "-0.02", "1" ]
       } ],
-      "uid" : "5f6de1f6dde9cf22fc1da98bdf988164"
+      "uid" : "13ec6ead27d99623e59520accac3101b"
     }, {
-      "name" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>>(-0.02, 0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x00000255F9B38760> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000255F9BE1370>.calc",
+      "name" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>>(-0.02, 0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000001D7246B35E0>.calc",
       "children" : [ {
         "name" : "test_div_02[-0.02-0.02-1]",
-        "uid" : "f1eea661d36514f9",
-        "parentUid" : "d85073f79eea316972254f507135ff9a",
+        "uid" : "78fab7338d3a3ea8",
+        "parentUid" : "71ca49877da01234631b5b83461a7de2",
         "status" : "failed",
         "time" : {
-          "start" : 1604322838138,
-          "stop" : 1604322838138,
+          "start" : 1604328999628,
+          "stop" : 1604328999628,
           "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "-0.02", "0.02", "1" ]
       } ],
-      "uid" : "d85073f79eea316972254f507135ff9a"
+      "uid" : "71ca49877da01234631b5b83461a7de2"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ]
