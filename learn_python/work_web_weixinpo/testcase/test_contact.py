@@ -14,7 +14,7 @@ class TestContact:
         name = "zz_" + account
 
         suffix = random.randint(10000000, 99999999)
-
+        #拼接电话号码
         phone = (f"136{suffix}")
         phonenum = phone
         addmemberpage = self.index.click_add_member()
