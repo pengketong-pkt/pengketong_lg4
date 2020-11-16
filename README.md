@@ -9,3 +9,6 @@
 
 ## web企业微信实战（一）--作业
 /learn_python/work_selenium/test_weixin.py
+
+## web企业微信实战（二）--作业
+/learn_python/work_web_weixinpo/testcase/test_contact.py
