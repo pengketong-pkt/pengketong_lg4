@@ -15,3 +15,6 @@
 
 ## app企业微信实战（一）--作业
 /learn_python/work_appium/weixin_appium/test_app_weixin.py
+
+## app企业微信实战（二）--作业
+learn_python/work_appium/weixin_PO/
