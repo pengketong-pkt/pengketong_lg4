@@ -18,3 +18,4 @@
 
 ## app企业微信实战（二）--作业
 learn_python/work_appium/weixin_PO/
+## 测试框架搭建lagouTest

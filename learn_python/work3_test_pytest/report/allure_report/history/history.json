@@ -1,23 +1,4 @@
 {
-  "683f9b02c23e0d3810cab6d5a90ea3b2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a8d0931a0b05bc7b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1604328999406,
-        "stop" : 1604328999407,
-        "duration" : 1
-      }
-    } ]
-  },
   "e859218d9eadc7ebac1b68d54e386ae4" : {
     "statistic" : {
       "failed" : 0,
@@ -28,11 +9,30 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a6d9e13952957eb7",
+      "uid" : "636318de9c68048f",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999538,
-        "stop" : 1604328999538,
+        "start" : 1614741789413,
+        "stop" : 1614741789413,
+        "duration" : 0
+      }
+    } ]
+  },
+  "683f9b02c23e0d3810cab6d5a90ea3b2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a89e820d1ea87462",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614741789262,
+        "stop" : 1614741789262,
         "duration" : 0
       }
     } ]
@@ -47,11 +47,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d8459eb6453ff4a6",
+      "uid" : "b1b8c0b1a3ae0dfb",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999599,
-        "stop" : 1604328999599,
+        "start" : 1614741789478,
+        "stop" : 1614741789478,
         "duration" : 0
       }
     } ]
@@ -66,12 +66,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9b637cbb9cff1bdb",
+      "uid" : "c9c821cd3e8ffa8b",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999739,
-        "stop" : 1604328999739,
-        "duration" : 0
+        "start" : 1614741789632,
+        "stop" : 1614741789633,
+        "duration" : 1
       }
     } ]
   },
@@ -85,11 +85,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2949f8f21becd955",
+      "uid" : "1fc883857769bd21",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999545,
-        "stop" : 1604328999545,
+        "start" : 1614741789419,
+        "stop" : 1614741789419,
         "duration" : 0
       }
     } ]
@@ -104,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "67d7ae1e96223115",
+      "uid" : "bbfdd18ca43afe92",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999565,
-        "stop" : 1604328999565,
-        "duration" : 0
+        "start" : 1614741789442,
+        "stop" : 1614741789443,
+        "duration" : 1
       }
     } ]
   },
@@ -123,11 +123,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "df49a7365bf96de1",
+      "uid" : "e4e179e1ea47db46",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999675,
-        "stop" : 1604328999675,
+        "start" : 1614741789567,
+        "stop" : 1614741789567,
         "duration" : 0
       }
     } ]
@@ -142,12 +142,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ab4189f2db96a030",
+      "uid" : "68aa59ac9530efd",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999732,
-        "stop" : 1604328999733,
-        "duration" : 1
+        "start" : 1614741789625,
+        "stop" : 1614741789625,
+        "duration" : 0
       }
     } ]
   },
@@ -161,11 +161,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "652ce9b954b04f86",
+      "uid" : "979d59b8a561cf96",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999449,
-        "stop" : 1604328999449,
+        "start" : 1614741789313,
+        "stop" : 1614741789313,
         "duration" : 0
       }
     } ]
@@ -180,12 +180,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "37095f66f892878e",
+      "uid" : "483a7327955cd6b1",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999478,
-        "stop" : 1604328999479,
-        "duration" : 1
+        "start" : 1614741789350,
+        "stop" : 1614741789350,
+        "duration" : 0
       }
     } ]
   },
@@ -199,11 +199,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7a5160b2132f2c60",
+      "uid" : "cda9282054272f56",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999640,
-        "stop" : 1604328999640,
+        "start" : 1614741789525,
+        "stop" : 1614741789525,
         "duration" : 0
       }
     } ]
@@ -218,12 +218,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "105eee8064be1983",
+      "uid" : "1f2aaf560e1f521d",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert -1 == 1\n +  where -1 = <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>>(1, -1)\n +    where <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>.mul\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000001D7245C9250>.calc",
+      "statusDetails" : "AssertionError: assert -1 == 1\n +  where -1 = <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>>(1, -1)\n +    where <bound method Calc.mul of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>.mul\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000000000369DBE0>.calc",
       "time" : {
-        "start" : 1604328999314,
-        "stop" : 1604328999314,
+        "start" : 1614741789050,
+        "stop" : 1614741789050,
         "duration" : 0
       }
     } ]
@@ -238,12 +238,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "46c942b6b05c3501",
+      "uid" : "dba95c9a6493d1df",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999531,
-        "stop" : 1604328999532,
-        "duration" : 1
+        "start" : 1614741789405,
+        "stop" : 1614741789405,
+        "duration" : 0
       }
     } ]
   },
@@ -257,11 +257,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "49e5fef3f039401f",
+      "uid" : "47c67a8703864cb4",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999420,
-        "stop" : 1604328999421,
+        "start" : 1614741789278,
+        "stop" : 1614741789279,
         "duration" : 1
       }
     } ]
@@ -276,12 +276,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9dbf38febc3f742e",
+      "uid" : "c42e44d7d16aa618",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999471,
-        "stop" : 1604328999471,
-        "duration" : 0
+        "start" : 1614741789337,
+        "stop" : 1614741789338,
+        "duration" : 1
       }
     } ]
   },
@@ -295,12 +295,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b708ec0c966254f4",
+      "uid" : "c06d3a5622405e06",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999745,
-        "stop" : 1604328999745,
-        "duration" : 0
+        "start" : 1614741789638,
+        "stop" : 1614741789639,
+        "duration" : 1
       }
     } ]
   },
@@ -314,11 +314,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1ff12eacb2ef1851",
+      "uid" : "9b129158c17cf374",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999668,
-        "stop" : 1604328999668,
+        "start" : 1614741789559,
+        "stop" : 1614741789559,
         "duration" : 0
       }
     } ]
@@ -333,11 +333,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f929dea8f69521e7",
+      "uid" : "c3210da8581baecb",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999556,
-        "stop" : 1604328999556,
+        "start" : 1614741789434,
+        "stop" : 1614741789434,
         "duration" : 0
       }
     } ]
@@ -352,11 +352,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fc75ce981746d8ea",
+      "uid" : "9da3b16b0f86ee3f",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999647,
-        "stop" : 1604328999647,
+        "start" : 1614741789535,
+        "stop" : 1614741789535,
         "duration" : 0
       }
     } ]
@@ -371,12 +371,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d97305ac4bf4f962",
+      "uid" : "16c7f58f517d8c46",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999509,
-        "stop" : 1604328999509,
-        "duration" : 0
+        "start" : 1614741789381,
+        "stop" : 1614741789382,
+        "duration" : 1
       }
     } ]
   },
@@ -390,11 +390,30 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1a1a32c88e955747",
+      "uid" : "2facb129d7d20688",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999413,
-        "stop" : 1604328999413,
+        "start" : 1614741789271,
+        "stop" : 1614741789271,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cc4ebfc9733fa703659e6b02d3a39381" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "82cfa15ede48a52c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614741789398,
+        "stop" : 1614741789398,
         "duration" : 0
       }
     } ]
@@ -409,30 +428,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c31efe0b625d41e5",
+      "uid" : "c3daf2c4e3e9b57b",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999550,
-        "stop" : 1604328999551,
-        "duration" : 1
-      }
-    } ]
-  },
-  "cc4ebfc9733fa703659e6b02d3a39381" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "7fb85870ec2ce06",
-      "status" : "passed",
-      "time" : {
-        "start" : 1604328999523,
-        "stop" : 1604328999523,
+        "start" : 1614741789426,
+        "stop" : 1614741789426,
         "duration" : 0
       }
     } ]
@@ -447,12 +447,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a58abd549fefff38",
+      "uid" : "a8e1437849d440a8",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999654,
-        "stop" : 1604328999655,
-        "duration" : 1
+        "start" : 1614741789543,
+        "stop" : 1614741789543,
+        "duration" : 0
       }
     } ]
   },
@@ -466,12 +466,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ffa19fed0fbfc23d",
+      "uid" : "2d6d10cf82710f1",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999306,
-        "stop" : 1604328999307,
-        "duration" : 1
+        "start" : 1614741789042,
+        "stop" : 1614741789042,
+        "duration" : 0
       }
     } ]
   },
@@ -485,11 +485,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "edc5f68e0b7aa55f",
+      "uid" : "e89810a27615a422",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999721,
-        "stop" : 1604328999721,
+        "start" : 1614741789612,
+        "stop" : 1614741789612,
         "duration" : 0
       }
     } ]
@@ -504,11 +504,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e9581df1cf10a2e3",
+      "uid" : "f269a22d7e240c9d",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999713,
-        "stop" : 1604328999714,
+        "start" : 1614741789605,
+        "stop" : 1614741789606,
         "duration" : 1
       }
     } ]
@@ -523,11 +523,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1981ba6484b7abcf",
+      "uid" : "abd35e0bc2583dd3",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999697,
-        "stop" : 1604328999697,
+        "start" : 1614741789591,
+        "stop" : 1614741789591,
         "duration" : 0
       }
     } ]
@@ -542,11 +542,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "32e996f8fb38db9f",
+      "uid" : "d54a21806298256a",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999682,
-        "stop" : 1604328999682,
+        "start" : 1614741789575,
+        "stop" : 1614741789575,
         "duration" : 0
       }
     } ]
@@ -561,11 +561,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1c1eda01807d9b79",
+      "uid" : "4e039ce73799ccd3",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999752,
-        "stop" : 1604328999752,
+        "start" : 1614741789646,
+        "stop" : 1614741789646,
         "duration" : 0
       }
     } ]
@@ -580,12 +580,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8618e667811cc915",
+      "uid" : "3049aa7d438f47f",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>>(2, -2)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000001D7246AD280>.calc",
+      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>>(2, -2)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x0000000003696790>.calc",
       "time" : {
-        "start" : 1604328999571,
-        "stop" : 1604328999572,
+        "start" : 1614741789450,
+        "stop" : 1614741789451,
         "duration" : 1
       }
     } ]
@@ -600,11 +600,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e07d8cc1291983ce",
+      "uid" : "57ec01ef8c9238d0",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999502,
-        "stop" : 1604328999502,
+        "start" : 1614741789373,
+        "stop" : 1614741789373,
         "duration" : 0
       }
     } ]
@@ -619,11 +619,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "40dc1875678c72c7",
+      "uid" : "8b46a2290106d3d9",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999486,
-        "stop" : 1604328999486,
+        "start" : 1614741789358,
+        "stop" : 1614741789358,
         "duration" : 0
       }
     } ]
@@ -638,11 +638,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "118c722260418fc0",
+      "uid" : "e3b7228151ac57ac",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999606,
-        "stop" : 1604328999607,
+        "start" : 1614741789486,
+        "stop" : 1614741789487,
         "duration" : 1
       }
     } ]
@@ -657,30 +657,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9f598ac33a835bd6",
+      "uid" : "614f9663e975ff48",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999456,
-        "stop" : 1604328999456,
-        "duration" : 0
-      }
-    } ]
-  },
-  "0e73bc5eba5dc23635e0c3572613412b" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c5a1109acd9f70d9",
-      "status" : "passed",
-      "time" : {
-        "start" : 1604328999756,
-        "stop" : 1604328999756,
+        "start" : 1614741789321,
+        "stop" : 1614741789321,
         "duration" : 0
       }
     } ]
@@ -695,12 +676,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c0bbe2ebec626115",
+      "uid" : "77cd0ab123c57321",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999705,
-        "stop" : 1604328999706,
-        "duration" : 1
+        "start" : 1614741789598,
+        "stop" : 1614741789598,
+        "duration" : 0
+      }
+    } ]
+  },
+  "0e73bc5eba5dc23635e0c3572613412b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ceba537494a680aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614741789650,
+        "stop" : 1614741789650,
+        "duration" : 0
       }
     } ]
   },
@@ -714,12 +714,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "78fab7338d3a3ea8",
+      "uid" : "8b08dcf3f58d2ea5",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>>(-0.02, 0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000001D7246B35E0>.calc",
+      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>>(-0.02, 0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000000036765E0>.calc",
       "time" : {
-        "start" : 1604328999628,
-        "stop" : 1604328999628,
+        "start" : 1614741789510,
+        "stop" : 1614741789510,
         "duration" : 0
       }
     } ]
@@ -734,12 +734,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "126e98986fd6ebbd",
+      "uid" : "e07da27850d31047",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>>(0.02, -0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000001D7246B4C70>.calc",
+      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>>(0.02, -0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x0000000003711AF0>.calc",
       "time" : {
-        "start" : 1604328999614,
-        "stop" : 1604328999614,
+        "start" : 1614741789495,
+        "stop" : 1614741789495,
         "duration" : 0
       }
     } ]
@@ -754,30 +754,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "478bf9a9074bff3d",
+      "uid" : "f63b642a4b3fb410",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999442,
-        "stop" : 1604328999442,
-        "duration" : 0
-      }
-    } ]
-  },
-  "47e853d8f2dc10dfd146028e44308d54" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2ee1dabdf83b263b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1604328999427,
-        "stop" : 1604328999427,
+        "start" : 1614741789305,
+        "stop" : 1614741789305,
         "duration" : 0
       }
     } ]
@@ -792,12 +773,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a024c67c9db17a6c",
+      "uid" : "1fc04b73d3d942cc",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999493,
-        "stop" : 1604328999494,
+        "start" : 1614741789365,
+        "stop" : 1614741789366,
         "duration" : 1
+      }
+    } ]
+  },
+  "47e853d8f2dc10dfd146028e44308d54" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f7ebc1bc06a77d63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614741789287,
+        "stop" : 1614741789287,
+        "duration" : 0
       }
     } ]
   },
@@ -811,11 +811,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8ed9f4c4dd82e616",
+      "uid" : "bba52e2a0cfda63a",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999727,
-        "stop" : 1604328999727,
+        "start" : 1614741789618,
+        "stop" : 1614741789618,
         "duration" : 0
       }
     } ]
@@ -830,12 +830,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9f65340c2ede0142",
+      "uid" : "96883cabefa186a8",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999516,
-        "stop" : 1604328999517,
-        "duration" : 1
+        "start" : 1614741789390,
+        "stop" : 1614741789390,
+        "duration" : 0
       }
     } ]
   },
@@ -849,13 +849,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e2f78e7f8956ad28",
+      "uid" : "14296c46b553af65",
       "status" : "failed",
-      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>>(-2, 2)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000001D724605610> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x000001D7246A9790>.calc",
+      "statusDetails" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>>(-2, 2)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x00000000037199A0>.calc",
       "time" : {
-        "start" : 1604328999585,
-        "stop" : 1604328999585,
-        "duration" : 0
+        "start" : 1614741789464,
+        "stop" : 1614741789465,
+        "duration" : 1
       }
     } ]
   },
@@ -869,12 +869,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7343a73884a6b230",
+      "uid" : "1d79496139530cc5",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999435,
-        "stop" : 1604328999435,
-        "duration" : 0
+        "start" : 1614741789295,
+        "stop" : 1614741789296,
+        "duration" : 1
       }
     } ]
   },
@@ -888,11 +888,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a11e8771fab27128",
+      "uid" : "df4b4d5f61b8551a",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999298,
-        "stop" : 1604328999298,
+        "start" : 1614741789031,
+        "stop" : 1614741789031,
         "duration" : 0
       }
     } ]
@@ -907,11 +907,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1b9df4709c0a9c85",
+      "uid" : "dcec715c4dd33524",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999690,
-        "stop" : 1604328999691,
+        "start" : 1614741789583,
+        "stop" : 1614741789584,
         "duration" : 1
       }
     } ]
@@ -926,11 +926,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4777758ad6b2ebc9",
+      "uid" : "7c981bdf203f005b",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999463,
-        "stop" : 1604328999464,
+        "start" : 1614741789329,
+        "stop" : 1614741789330,
         "duration" : 1
       }
     } ]
@@ -945,11 +945,11 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b890f4549bf38dae",
+      "uid" : "40e68b4bd429bc75",
       "status" : "passed",
       "time" : {
-        "start" : 1604328999661,
-        "stop" : 1604328999661,
+        "start" : 1614741789551,
+        "stop" : 1614741789551,
         "duration" : 0
       }
     } ]

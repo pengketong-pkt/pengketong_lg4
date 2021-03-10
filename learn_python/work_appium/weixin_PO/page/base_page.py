@@ -10,11 +10,27 @@ from selenium.webdriver.remote.webdriver import WebDriver
 
 
 class BasePage:
+    # logging.basicConfig(level=logging.INFO,
+    #                     filename='./myapptest.log',
+    #                     filemode='w',
+    #                     format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
+    #                     datefmt='%a, %d %b %Y %H:%M:%S')
     logging.basicConfig(level=logging.INFO,
                         format='%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s',
                         datefmt='%a, %d %b %Y %H:%M:%S',
-                        filename='../log/myapp.log',
+                        filename='pengketong_lg4/learn_python/work_appium/weixin_PO/page/myapp.log',
                         filemode='w')
+
+    # logging.basicConfig(filename="config.log", filemode="w", format="%(asctime)s-%(name)s-%(levelname)s-%(message)s",
+    #                     level=logging.INFO)
+    # logging.basicConfig(level=logging.INFO,  # 控制台打印的日志级别
+    #                     filename='new.log',
+    #                     filemode='a',  ##模式，有w和a，w就是写模式，每次都会重新写日志，覆盖之前的日志
+    #                     # a是追加模式，默认如果不写的话，就是追加模式
+    #                     format=
+    #                     '%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s'
+    #                     # 日志格式
+    #                     )
 
     def __init__(self, driver: WebDriver = None):
         self.driver = driver

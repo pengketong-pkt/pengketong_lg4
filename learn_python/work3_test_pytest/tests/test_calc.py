@@ -6,6 +6,9 @@
 
 
 """
+import os
+from datetime import time
+
 import pytest
 import allure
 from learn_python.work3_test_pytest.core.calc import Calc
@@ -154,3 +157,12 @@ class TestCalc:
         r2 = self.calc.mul(1, 2)
         assert r1 == 2
         assert r2 == 2
+
+
+# if __name__ == '__main__':
+#     # pytest.main("-s -q test_groups.py")
+#     # 取当前时间
+#     now = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+#     pytest.main("-s -q test_calc.py  --alluredir report-{0}".format(now))
+#     # 调用命令生成报告（Windows下面的方法）----------需要下载allure.exe
+#     os.system("C:\\Users\\Administrator\\scoop\\apps\\allure\\2.13.5\\bin\\allure generate report-{0}/ -o report-{0}/html".format(now))
