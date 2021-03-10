@@ -1,0 +1,107 @@
+{
+  "uid" : "e07da27850d31047",
+  "name" : "test_div_02[0.02--0.02-1]",
+  "fullName" : "learn_python.work3_test_pytest.tests.test_calc.TestCalc#test_div_02",
+  "historyId" : "4c24560aee60d86a476c7b9728329a94",
+  "time" : {
+    "start" : 1614741789495,
+    "stop" : 1614741789495,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert -1.0 == 1\n +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>>(0.02, -0.02)\n +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>.div\n +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x0000000003711AF0>.calc",
+  "statusTrace" : "self = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x0000000003711AF0>, a = 0.02, b = -0.02, c = 1\n\n    @allure.story(\"浮点数相除\")\n    @pytest.mark.parametrize('a, b, c', [\n        [0.02, 0.02, 1],\n        [-0.02, -0.02, 1],\n        [0.02, -0.02, 1],\n        [-0.02, 0.02, 1]\n    ])\n    def test_div_02(self, a, b, c):\n>       assert self.calc.div(a, b) == c\nE       assert -1.0 == 1\nE        +  where -1.0 = <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>>(0.02, -0.02)\nE        +    where <bound method Calc.div of <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>> = <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60>.div\nE        +      where <learn_python.work3_test_pytest.core.calc.Calc object at 0x000000000362BD60> = <learn_python.work3_test_pytest.tests.test_calc.TestCalc object at 0x0000000003711AF0>.calc\n\nlearn_python\\work3_test_pytest\\tests\\test_calc.py:105: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1614741789030,
+      "stop" : 1614741789030,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1614741789651,
+      "stop" : 1614741789651,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "浮点数相除"
+  }, {
+    "name" : "feature",
+    "value" : "测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "learn_python.work3_test_pytest.tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalc"
+  }, {
+    "name" : "host",
+    "value" : "USER-20180408EB"
+  }, {
+    "name" : "thread",
+    "value" : "5236-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "learn_python.work3_test_pytest.tests.test_calc"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0.02"
+  }, {
+    "name" : "b",
+    "value" : "-0.02"
+  }, {
+    "name" : "c",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e07da27850d31047.json",
+  "parameterValues" : [ "0.02", "-0.02", "1" ]
+}

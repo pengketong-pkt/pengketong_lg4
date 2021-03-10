@@ -1,0 +1,22 @@
+test_baidu_search (__main__.Baidu) ... ok
+test_baidu_set (__main__.Baidu) ... skipped 'i want to skip'
+
+----------------------------------------------------------------------
+Ran 2 tests in 9.843s
+
+OK (skipped=1)
+test_get_new_message (__main__.TestLaGou) ... FAIL
+test_visit_lagou (__main__.TestLaGou) ... ok
+
+======================================================================
+FAIL: test_get_new_message (__main__.TestLaGou)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:/Users/Administrator/pengketong_lg4/lagouTest\tests\test_lagou.py", line 47, in test_get_new_message
+    assert json.loads(result.content)['message'] == '成功'
+AssertionError
+
+----------------------------------------------------------------------
+Ran 2 tests in 3.142s
+
+FAILED (failures=1)
