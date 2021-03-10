@@ -18,17 +18,48 @@ import unittest
 #     runner = unittest.TextTestRunner(verbosity=2)
 #
 #     runner.run(suite)
-from lagouTest.common.html_reporter import GenerateReport
+# from lagouTest.common.html_reporter import GenerateReport
+#
+# __author__ = 'iTesting'
+#
+# import unittest, os
+#
+# if __name__ == "__main__":
+#     suite = unittest.defaultTestLoader.discover(os.path.join(os.path.dirname(__file__), "tests"), \
+#  \
+#                                                 pattern='*.py', top_level_dir=os.path.dirname(__file__))
+#
+#     html_report = GenerateReport()
+#
+#     html_report.generate_report(suite)
+# coding=utf-8
 
-__author__ = 'iTesting'
+import pytest
 
-import unittest, os
+import os
+
+import glob
+
+
+# 查找所有待执行的测试用例module，见《04|必知必会，打好Python基本功》
+
+def find_modules_from_folder(folder):
+    absolute_f = os.path.abspath(folder)
+
+    md = glob.glob(os.path.join(absolute_f, "*.py"))
+
+    return [f for f in md if os.path.isfile(f) and not f.endswith('__init__.py')]
+
 
 if __name__ == "__main__":
-    suite = unittest.defaultTestLoader.discover(os.path.join(os.path.dirname(__file__), "tests"), \
- \
-                                                pattern='*.py', top_level_dir=os.path.dirname(__file__))
+    # 得出测试文件夹地址
 
-    html_report = GenerateReport()
+    test_folder = os.path.join(os.path.dirname(__file__), 'tests')
 
-    html_report.generate_report(suite)
+    # 得出测试文件夹下的所有测试用例
+
+    target_file = find_modules_from_folder(test_folder)
+
+    # 直接运行所有的测试用例
+
+    pytest.main([*target_file, '-v'])
