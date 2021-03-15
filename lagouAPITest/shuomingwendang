@@ -1,0 +1,60 @@
+# 语法：
+
+--reruns Num。 其中Num是重跑的次数
+# sample.py目录为 D:\_Automation\lagouAPITest\tests
+
+# 需切换至此目录执行
+
+pytest sample.py --reruns 2
+
+
+pip install pytest-parallel 安装
+
+
+pip install pytest-xdist 安装
+
+# 语法：
+
+pytest -n NUMCPUS
+
+# 以下为2个进程并行运行
+
+pytest -n 2
+
+#使用与CPU内核一样多的进程来并发
+
+pytest -n auto
+
+
+pip install pytest-html
+
+
+pytest-html 还支持错误重试，使用如下命令运行
+pytest -n 3 --html=report.html --self-contained-html --reruns 2
+运行结束你会发现，错误的测试用例被运行了 2 次
+
+
+# 直接执行lagouAPITest项目下的所有测试用例，并将测试报告文件夹allure_reports放在项目根目录下
+
+D:\_Automation\lagouAPITest>pytest --alluredir=./allure_reports
+
+
+# 执行所有的标记为smoke的测试用例，并且报告文件夹设置为allure_reports
+
+pytest.main(["-m", "smoke",
+
+             "--alluredir=./allure_reports"])
+
+# 以Win10为例：
+
+1. 使用快捷键 Win + R 调起运行提示框
+
+2. 输入“cmd”进入到命令行
+
+3. 切换目录到项目根目录，本例中在D:\_Automation\lagouAPITest>：
+
+4. 输入命令生成allure报告：
+
+allure serve allure_reports
+
+

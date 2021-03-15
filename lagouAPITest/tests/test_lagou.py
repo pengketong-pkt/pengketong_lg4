@@ -2,11 +2,12 @@
 
 import json
 
+import pytest
 import requests
 
-
+@pytest.mark.lagou
 class TestLaGou:
-
+    flag = 1
     # 在pytest里，针对一个类方法的setup为setup_method,
 
     # setup_method作用同unittest里的setUp()
@@ -23,6 +24,7 @@ class TestLaGou:
 
         assert '拉勾' in result.text
 
+    @pytest.mark.skipif(flag == 1, reason='by condition')
     def test_get_new_message(self):
         # 此处需要一个方法登录获取登录的cookie
 

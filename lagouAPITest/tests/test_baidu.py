@@ -5,14 +5,14 @@
 # @Time    : 2021/3/9 19:45
 # @Author  : pengketong
 # coding=utf-8
-
+import pytest
 from selenium import webdriver
 
 import unittest
 
 import time
 
-
+@pytest.mark.baidu
 class Baidu(unittest.TestCase):
 
     def setUp(self):
