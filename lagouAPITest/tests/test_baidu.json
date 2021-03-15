@@ -1,0 +1,10 @@
+{
+  "case1": {
+    "search_string": "itesting1",
+    "expect_string": "iTesting"
+  },
+  "case2": {
+    "search_string": "itesting2",
+    "expect_string": "iTesting"
+  }
+}
