@@ -3,6 +3,8 @@
 # @Author  : pengketong
 # -*- coding: utf-8 -*-
 
+# -*- coding: utf-8 -*-
+
 import codecs
 
 import json
@@ -15,6 +17,12 @@ import pytest
 
 import yaml
 
+from openpyxl import load_workbook
+
+import pandas as pd
+
+
+# 读取Yaml文件和Json文件
 
 def read_data_from_json_yaml(data_file):
     return_value = []
@@ -59,11 +67,49 @@ def read_data_from_json_yaml(data_file):
     return return_value
 
 
+# 读取Excel 文件 -- openpyxl
+
+def read_data_from_excel(excel_file, sheet_name):
+    return_value = []
+
+    if not os.path.exists(excel_file):
+        raise ValueError("File not exists")
+
+    wb = load_workbook(excel_file)
+
+    for s in wb.sheetnames:
+
+        if s == sheet_name:
+
+            sheet = wb[sheet_name]
+
+            for row in sheet.rows:
+                return_value.append([col.value for col in row])
+
+    print(return_value)
+
+    return return_value[1:]
+
+
+# 读取Excel文件 -- Pandas
+
+def read_data_from_pandas(excel_file, sheet_name):
+    if not os.path.exists(excel_file):
+        raise ValueError("File not exists")
+
+    s = pd.ExcelFile(excel_file)
+
+    df = s.parse(sheet_name)
+
+    return df.values.tolist()
+
+
 @pytest.mark.baidu
 class TestBaidu:
 
     @pytest.mark.parametrize('search_string, expect_string',
-                             read_data_from_json_yaml('tests_pytest_ddt/test_baidu_ddt.json'))
+                             read_data_from_pandas(r'H:\test_baidu_ddt.xlsx',
+                                                   'iTesting'))
     def test_baidu_search(self, login, search_string, expect_string):
         driver, s, base_url = login
 
@@ -83,4 +129,4 @@ class TestBaidu:
 
 
 if __name__ == "__main__":
-    pytest.main(['-s', '-v'])
+    pytest.main(['-s', '-v', 'tests_pytest_ddt'])
