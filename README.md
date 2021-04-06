@@ -31,3 +31,5 @@ learn_python/work_appium/weixin_PO/
 
 ## 直接执行lagouAPITest项目下的所有测试用例，并将测试报告文件夹allure_reports放在项目根目录下
 ## D:\_Automation\lagouAPITest>pytest --alluredir=./allure_reports
+
+##20210406测试一下
